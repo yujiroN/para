@@ -1,0 +1,39 @@
+// パララックスなし
+.first-v {
+    position: relative;
+    background: url(../image/1.jpeg);
+    background-size: cover;
+    height: 0%;
+    padding-top: unquote("min(100vh,75%)");
+    p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        line-height: 1.5;
+        font-size: unquote('max(3vw, 16px)');
+    }
+}
+
+
+
+// パララックスあり
+
+.first-v2 {
+    position: relative;
+    background: url(../image/1.jpeg);
+    background-size: cover;
+    height: 0%;
+    padding-top: unquote("min(100vh,75%)");
+    p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        line-height: 1.5;
+        font-size: unquote('max(3vw, 16px)');
+    }
+}
+
